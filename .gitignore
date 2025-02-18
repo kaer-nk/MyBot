@@ -1,0 +1,18 @@
+# IDE files
+.idea/shelf/
+.idea/workspace.xml
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+
+# Gradle files
+.gradle/
+build/
+!build/resources/
+build/resources/main/config.json
+
+# Project specific
+src/main/resources/config.json
+
+# Keep example files
+!*.example
