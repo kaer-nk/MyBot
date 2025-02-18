@@ -1,6 +1,6 @@
 # MyBot
 MyBot是一个基于Kotlin和Mirai开发的QQ机器人项目，配置好运行启动即可登录qq开始运行，使用命令行形式进行交互。
-注意qq的登录要占用一个设备的登录名额，目前默认选项是在MACOS设备上进行登录，如果需要在其他设备上登录请修改`src/main/kotlin/Main.kt`中的登录配置
+注意qq的登录要占用一个设备的登录名额，目前默认选项是在MACOS设备上进行登录，如果需要在其他设备上登录请修改`src/main/kotlin/Main.kt`中的登录配置。
 
 目前接入的wiki:
 - 星露谷
@@ -17,14 +17,14 @@ MyBot是一个基于Kotlin和Mirai开发的QQ机器人项目，配置好运行�
 1. 运行程序
 2. 根据命令行的提示进行输入 相关步骤:
 
-   根据提供的网址复制到浏览器打开,12查看登录校验接口/cap_union_new_verify
+   根据提供的网址复制到浏览器打开,F12查看登录校验接口/cap_union_new_verify
    ![img.png](example/img.png)
    完成校验, 注意可能需要第二第三次校验才能得到秘钥
 
    把这个复制回来输入到命令行中，回车
    ![img_1.png](example/img_1.png)
 
-   输入yes获取手机验证码,然后输入验证码
+   输入yes获取手机验证码，然后输入验证码
    ![img_2.png](example/img_2.png)
 3. 登录成功
    
@@ -32,7 +32,7 @@ MyBot是一个基于Kotlin和Mirai开发的QQ机器人项目，配置好运行�
 
 ## 特性
 
-- 使用 Kotlin 编写
+- 使用 Kotlin 编写 ，有Java环境即可运行
 - 配置管理
 - 群组管理
 - AI回复
