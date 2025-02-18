@@ -18,14 +18,14 @@ MyBot是一个基于Kotlin和Mirai开发的QQ机器人项目，配置好运行�
 2. 根据命令行的提示进行输入 相关步骤:
 
    根据提供的网址复制到浏览器打开,12查看登录校验接口/cap_union_new_verify
-   ![img.png](img.png)
+   ![img.png](example/img.png)
    完成校验, 注意可能需要第二第三次校验才能得到秘钥
 
    把这个复制回来输入到命令行中，回车
-   ![img_1.png](img_1.png)
+   ![img_1.png](example/img_1.png)
 
    输入yes获取手机验证码,然后输入验证码
-   ![img_2.png](img_2.png)
+   ![img_2.png](example/img_2.png)
 3. 登录成功
    
 
