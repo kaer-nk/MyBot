@@ -7,9 +7,8 @@
 
 # Gradle files
 .gradle/
-build/
-!build/resources/
-build/resources/main/config.json
+/build/
+**/build/
 
 # Project specific
 src/main/resources/config.json
